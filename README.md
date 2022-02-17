@@ -18,7 +18,7 @@ The new folder for your backup is automatically created with the name of the ori
 ### with Zsh (Windows Subsystem Linux)
 
 - Use the `backupWIN.sh` file
-- Change the path of your destination copy in the script file
+- Change the path of your destination copy in the script file, paying attention to the variables for the new backup folder name
 - Add a npm script line in your `package.json` :
 
 `    "scripts": {
@@ -28,7 +28,7 @@ The new folder for your backup is automatically created with the name of the ori
 ### with Cmd (Windows Shell)
 
 - Use the `backupWIN.bat` file
-- Change the path of your destination copy in the script file
+- Change the path of your destination copy in the script file, paying attention to the variables for the new backup folder name
 - add a npm script line in your `package.json` :
 
 `    "scripts": {
@@ -39,7 +39,7 @@ The new folder for your backup is automatically created with the name of the ori
 ## For OSX
 
 - Use the `backupOSX.sh` file
-- Change the path of your destination copy in the script file
+- Change the path of your destination copy in the script file, paying attention to the variables for the new backup folder name
 - add a npm script line in your `package.json` :
 
 `    "scripts": {
