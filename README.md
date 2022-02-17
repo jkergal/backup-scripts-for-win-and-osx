@@ -13,6 +13,8 @@ Juste place these files on the root of you dev project folder.
 All the files do a copy of all files, folder and sub-folders of the script place excluding your `node_modules` folder.
 The new folder for your backup is automatically created with the name of the original folder project + the date and the hour of the copy, so you never will have name conflicts.
 
+The drive letter for the destination paths in these files are set on "G" (or "g"), change it to fit with yours. 
+
 ## For Windows
 
 ### with Zsh (Windows Subsystem Linux)
