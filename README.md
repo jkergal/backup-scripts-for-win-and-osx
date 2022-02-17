@@ -5,12 +5,13 @@ Even if Git is really cool to work without being afraid of losing your work on a
 If you want to double your saves on a cloud like Google drive or on you local machine, here are some scripts in .bat and .sh to be able to run backups of your dev projects easily on Windows or OSX.
 As you can see, there are several files that you can use for different OS and Shells.
 
-The setps explane below are for a NPM set up, but you can use it too with yarn, node etc.
+The steps explane below are for a NPM set up, but you can use it too with yarn, node etc.
 
 ## First
 
 Juste place these files on the root of you dev project folder.
-All the files do a copy excluding your `node_modules` folder.
+All the files do a copy of all files, folder and sub-folders of the script place excluding your `node_modules` folder.
+The new folder for your backup is automatically created with the name of the original folder project + the date and the hour of the copy, so you never will have name conflicts.
 
 ## For Windows
 
