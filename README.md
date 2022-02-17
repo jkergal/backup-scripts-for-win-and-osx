@@ -9,7 +9,8 @@ The setps explane below are for a NPM set up, but you can use it too with yarn, 
 
 ## First
 
-Juste place these files on the root of you dev project folder
+Juste place these files on the root of you dev project folder.
+All the files do a copy excluding your `node_modules` folder.
 
 ## For Windows
 
