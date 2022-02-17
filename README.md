@@ -28,7 +28,7 @@ All the files do a copy excluding your `node_modules` folder.
 
 - Use the `backupWIN.bat` file
 - Change the path of your destination copy in the script file
-- add a npm script line in your `package.json` as shown below :
+- add a npm script line in your `package.json` :
 
 `    "scripts": {
         "savewin": "backupWIN.bat"
@@ -39,7 +39,7 @@ All the files do a copy excluding your `node_modules` folder.
 
 - Use the `backupOSX.sh` file
 - Change the path of your destination copy in the script file
-- add a npm script line in your `package.json` as shown below :
+- add a npm script line in your `package.json` :
 
 `    "scripts": {
         "saveosx": "backupOSX.sh"
