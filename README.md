@@ -27,7 +27,7 @@ The new folder for your backup is automatically created with the name of the ori
     
 ### with Cmd (Windows Shell)
 
-- Use the `backupWIN.bat` file
+- Use the `backupWIN.bat` file, and also pute the `backup.ignore.txt` file as the same place
 - Change the path of your destination copy in the script file, paying attention to the variables for the new backup folder name
 - add a npm script line in your `package.json` :
 
