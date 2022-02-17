@@ -5,7 +5,7 @@ Even if Git is really cool to work without being afraid of losing your work on a
 If you want to double your saves on a cloud like Google drive or on you local machine, here are some scripts in .bat and .sh to be able to run backups of your dev projects easily on Windows or OSX.
 As you can see, there are several files that you can use for different OS and Shells.
 
-The steps explane below are for a NPM set up, but you can use it too with yarn, node etc.
+The steps explaned below are for a NPM set up, but you can use it too with yarn, node etc.
 
 ## First
 
@@ -29,9 +29,9 @@ The drive letter for the destination paths in these files are set on "G" (or "g"
     
 ### with Cmd (Windows Shell)
 
-- Use the `backupWIN.bat` file, and also pute the `backup.ignore.txt` file as the same place
+- Use the `backupWIN.bat` file, and also put the `backup.ignore.txt` file in the same place
 - Change the path of your destination copy in the script file, paying attention to the variables for the new backup folder name
-- add a npm script line in your `package.json` :
+- Add a npm script line in your `package.json` :
 
 `    "scripts": {
         "savewin": "backupWIN.bat"
@@ -42,7 +42,7 @@ The drive letter for the destination paths in these files are set on "G" (or "g"
 
 - Use the `backupOSX.sh` file
 - Change the path of your destination copy in the script file, paying attention to the variables for the new backup folder name
-- add a npm script line in your `package.json` :
+- Add a npm script line in your `package.json` :
 
 `    "scripts": {
         "saveosx": "backupOSX.sh"
@@ -51,4 +51,4 @@ The drive letter for the destination paths in these files are set on "G" (or "g"
 
 ## And that's all
 
-You can now just run the `npm run savewin` or `npm run saveosx` when you want to create a back of your project in your Google Drive or anywhere on your drives.
+You can now just run the `npm run savewin` or `npm run saveosx` when you want to create a backup of your project in your Google Drive or anywhere in your drives.
