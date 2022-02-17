@@ -13,7 +13,7 @@ echo datestamp: "%datestamp%"
 echo timestamp: "%timestamp%"
 echo fullstamp: "%fullstamp%"
 
-xcopy "%~dp0\." "G:\Mon Drive\dev-cloud\dev-backup\%Name%_%fullstamp%__WIN" /E /I /EXCLUDE:backup.ignore.txt
+xcopy "%~dp0\." "G:\your\path\destination\%Name%_%fullstamp%__WIN" /E /I /EXCLUDE:backup.ignore.txt
 
 
 
